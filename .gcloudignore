@@ -1,0 +1,19 @@
+.gcloudignore
+.git
+.gitignore
+
+# Environment
+.env
+.DS_Store
+Pipfile
+Pipfile.lock
+
+# Cache
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+.pytest_cache/
+
+# Ignored by the build system
+/setup.cfg
